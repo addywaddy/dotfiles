@@ -1,0 +1,36 @@
+#!/bin/bash
+
+sudo -v # ask for password only at the beginning
+
+brew update
+brew upgrade
+brew tap homebrew/versions
+brew tap phinze/homebrew-cask
+
+brew install ack
+brew install brew-pip
+brew install ctags
+brew install gettext
+brew install git
+brew install gnupg
+brew install gtk+ 2.24.11
+brew install macvim
+brew install markdown
+brew install mysql
+brew install nginx
+brew install node
+brew install openssl
+brew install postgresql #9.2.2
+brew install python
+brew install qt
+brew install rbenv
+brew install rbenv-bundler
+brew install rbenv-gemset
+brew install readline
+brew install redis
+brew install ruby-build
+brew install sqlite
+brew install tree
+brew install watch
+brew install wget
+brew install zsh
